@@ -301,7 +301,7 @@ function startApp() {
   // Sahifalarni ko'rsatish
   document.getElementById("loginPage").classList.remove("active");
   document.getElementById("mainHeader").style.display = "block";
-  document.getElementById("searchContainer").style.display = "block";
+  document.getElementById("searchContainer").style.display = "flex";
   document.getElementById("bottomNav").style.display = "flex";
 
   // Foydalanuvchi ma'lumotlarini ko'rsatish
